@@ -1,7 +1,7 @@
 name: "Satya Batna"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Satya Batna Homepage"
   right:
     - text: "plots"
       href: plots.html
