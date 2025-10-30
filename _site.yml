@@ -8,7 +8,7 @@ navbar:
     - text: "resume"
       href: resume.html
     - icon: fa-envelope fa-lg
-      href: mailto:ssb2231@cumc.columbia.edu
+      href: mailto:<ssb2231@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: https://github.com/Satya-Batna
 output:
