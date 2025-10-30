@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: "Index"
 author: "Satya Batna"
 date: "2025-10-30"
 output: html_document
@@ -18,4 +18,4 @@ Very interested in pursuing a PhD afterwards in order to continue in academia an
 Below is my email and github account:
 
 Email: ssb2231@cumc.columbia.edu  
-[My GitHub](https://github.com/<Satya-Batna>)
+[My GitHub](https://github.com/Satya-Batna>)
