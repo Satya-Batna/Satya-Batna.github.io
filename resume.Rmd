@@ -1,0 +1,22 @@
+---
+title: "resume"
+author: "Satya Batna"
+date: "2025-10-30"
+output: html_document
+---
+
+# Education
+- **Columbia University** — MPH Epidemiology (Expected May 2026)
+- **University of Texas at Austin** — B.S. Biochemistry (May 2024)
+
+# Experience
+- **Research Assistant**, Department of Epidemiology  
+  - Breast Cancer Family Registry work: Data cleaning in SAS + R, REDCap entry, recruitment processes, literature reviews.
+  - **Research Assistant**, Department of Population and Family Health
+  
+
+# Skills
+SAS - Intermediate 
+R (tidyverse, plotly) - Beginner 
+Git/GitHub - Beginner 
+SQL - Beginner

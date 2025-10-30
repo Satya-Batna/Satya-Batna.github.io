@@ -1,0 +1,21 @@
+---
+title: "index"
+author: "Satya Batna"
+date: "2025-10-30"
+output: html_document
+---
+
+# Satya Batna (MPH Candidate)
+
+MPH Student in Epidemiology at Columbia Mailman School of Public Health. 
+
+Department of Epidemiology with a certificate in Applied Datascience and Biostatistics. 
+
+Interested in cancer epidemiology with a focus on nutrition and social determinanats of health. 
+
+Very interested in pursuing a PhD afterwards in order to continue in academia and research. 
+
+Below is my email and github account:
+
+Email: ssb2231@cumc.columbia.edu  
+[My GitHub](https://github.com/<Satya-Batna>)
