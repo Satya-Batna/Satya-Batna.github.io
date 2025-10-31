@@ -7,6 +7,9 @@ output: html_document
 
 # Satya Batna (MPH Candidate)
 
+<img src="images/Profile.jpeg" style="width:60%;">
+
+
 MPH Student in Epidemiology at Columbia Mailman School of Public Health. 
 
 Department of Epidemiology with a certificate in Applied Datascience and Biostatistics. 
@@ -15,7 +18,7 @@ Interested in cancer epidemiology with a focus on nutrition and social determina
 
 Very interested in pursuing a PhD afterwards in order to continue in academia and research. 
 
-This datascience class has helped me gain a better understanding for  
+This data science class has helped me gain a better understanding for R software and getting to clean and visualize data better. 
 
 Below is my email: 
 
