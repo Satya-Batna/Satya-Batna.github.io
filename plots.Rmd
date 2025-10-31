@@ -1,15 +1,15 @@
 ---
-title: "plots"
+title: "Plots"
 author: "Satya Batna"
 date: "2025-10-30"
 output: html_document
 ---
 
-```{r}
-#Loading the 
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
+
 data(nyc_airbnb)
 
 nyc_airbnb = 
@@ -22,19 +22,33 @@ nyc_airbnb =
     neighbourhood_group == "Queens",
     room_type == "Entire home/apt",
     price %in% 100:700)
+```
 
+This scatterplot shows the geographic distribution of entire-home Airbnb listings in Queens from 100 to 700 dollaras price range, with point color representing price. Higher-priced listings cluster more heavily around popular areas. 
+
+```{r plot1, echo=FALSE}
 nyc_airbnb |>
   mutate(text_label = str_c("Price: $", price, "\nRating: ", rating)) |> 
   plot_ly(
     x = ~lat, y = ~long, 
     type = "scatter", mode = "markers",
     color = ~price, text = ~text_label, alpha = 0.5)
+```
 
+This bar plot displays the number of listings across neighborhoods in Queens. The highest listings are in Long City Island, Sunnyside and Jackson Heights (my personal fav place).
+
+```{r plot2, echo=FALSE}
 nyc_airbnb |> 
   count(neighbourhood) |> 
   mutate(neighbourhood = fct_reorder(neighbourhood, n)) |> 
-  plot_ly(x = ~neighbourhood, y = ~n, color = ~neighbourhood, type = "bar", colors = "viridis")
+  plot_ly(
+    x = ~neighbourhood, y = ~n, 
+    color = ~neighbourhood, 
+    type = "bar")
+```
 
+This interactive scatterplot visualizes price variation across Queens based on listing location. Dense point clusters and color gradients help reveal areas with both high listing volume and higher rental prices.
+```{r plot3, echo=FALSE}
 scatter_ggplot = 
   nyc_airbnb |>
   ggplot(aes(x = lat, y = long, color = price)) +
@@ -42,4 +56,3 @@ scatter_ggplot =
   coord_cartesian()
 
 ggplotly(scatter_ggplot)
-```
